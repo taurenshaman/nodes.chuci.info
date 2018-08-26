@@ -49,6 +49,7 @@
       </a>
       <a class="active item" href="index.html">Home</a>
       <a class="item" href="book.html">Book</a>
+      <a class="item" href="datetime.html">DateTime</a>
       <a class="item" href="food.html">Food</a>
       <a class="item" href="math.html">Math</a>
       <a class="item" href="media.html">Media</a>
@@ -62,6 +63,7 @@
   <!-- <div class="ui vertical inverted sidebar menu">
     <a class="active item" href="index.html">Home</a>
     <a class="item" href="book.html">Book</a>
+    <a class="item" href="datetime.html">DateTime</a>
     <a class="item" href="food.html">Food</a>
     <a class="item" href="math.html">Math</a>
     <a class="item" href="media.html">Media</a>
@@ -76,7 +78,7 @@
     <div class="ui inverted vertical masthead center aligned segment">
 
       <canvas class="bgparticles"></canvas>
-      
+
       <div class="ui container" style="z-index: 30;">
         <div class="ui large secondary inverted menu">
           <!-- <a class="toc item">
@@ -87,6 +89,7 @@
           </a>
           <a class="active item" href="index.html">Home</a>
           <a class="item" href="book.html">Book</a>
+          <a class="item" href="datetime.html">DateTime</a>
           <a class="item" href="food.html">Food</a>
           <a class="item" href="math.html">Math</a>
           <a class="item" href="media.html">Media</a>
@@ -103,7 +106,7 @@
         <h2>One node. One function. One possibility.</h2>
         <!--<div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>-->
       </div>
-      
+
     </div>
 
     <div class="ui four stackable link cards centered" style="margin: 20px; padding: 20px;">
@@ -128,6 +131,30 @@
           <span>
             <i class="share alternate icon"></i>
             2 nodes
+          </span>
+        </div>
+      </div>
+
+      <div class="card">
+        <a class="image" href="datetime.html">
+          <img src="images/time.png">
+        </a>
+        <div class="content">
+          <a class="header" href="datetime.html">DateTime</a>
+          <div class="meta">
+            <a>Date/Time.</a>
+          </div>
+          <div class="description">
+            https://nodes-datetime.azurewebsites.net/api/XXX
+          </div>
+        </div>
+        <div class="extra content">
+          <span class="right floated">
+            v4.2018.8.26
+          </span>
+          <span>
+            <i class="share alternate icon"></i>
+            4 nodes
           </span>
         </div>
       </div>
@@ -279,10 +306,10 @@
     </div>
 
     <div id="footerline"></div>
-    
+
     <script src="assets/js/particles.min.js"></script>
     <script>
-      window.onload = function() {
+      window.onload = function () {
         Particles.init({
           selector: '.bgparticles',
           color: '#ECCEF5',

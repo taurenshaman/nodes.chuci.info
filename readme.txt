@@ -1,4 +1,9 @@
 ﻿
+8.0.2018.8.26
++ datetime.
+
+7.2.2018.8.25
+更新math，使用Compute-MathJS替换掉Compute-RPN。
 
 7.2.2018.1.29
 首页增加particles特效。
